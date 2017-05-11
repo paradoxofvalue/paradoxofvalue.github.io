@@ -3,10 +3,8 @@
  */
 import React from 'react';
 import { render } from 'react-dom';
+import { UsersListContainer } from './bundles/Users/components/UsersList';
 
-render(
-    <div>
-        Hello react!
-    </div>,
+render(<UsersListContainer />,
     document.getElementById('root')
 );
