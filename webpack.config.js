@@ -42,6 +42,6 @@ module.exports = {
 };
 
 ghpages.publish('dist',{
-    branch: 'gh-pages',
+    branch: 'master',
     repo: 'https://github.com/paradoxofvalue/paradoxofvalue.github.io'
 }, function(err) {});
