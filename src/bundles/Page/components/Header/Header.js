@@ -6,9 +6,9 @@ import React, { Component } from 'react';
 export default class Header extends Component {
     render() {
         return (
-            <div>
-                <p>Test</p>
-            </div>
+            <header>
+                <h1>POW</h1>
+            </header>
         )
     }
 }

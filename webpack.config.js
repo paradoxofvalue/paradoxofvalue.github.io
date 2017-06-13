@@ -4,6 +4,8 @@
 const path = require('path');
 var webpack = require('webpack');
 
+var ExtractTextPlugin = require ('extract-text-webpack-plugin');
+
 module.exports = {
     entry: path.join(__dirname, 'src', 'index.js'),
     output: {
@@ -17,9 +19,23 @@ module.exports = {
                 exclude: /node_modules/,
                 loaders: ["react-hot-loader" ,"babel-loader"],
             },
+            {
+                test: /\.css$/,
+                loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader' })
+            },
+            {
+                test: /\.(png|jpg|gif)$/,
+                loader: 'url-loader',
+                options: {
+                    limit: 8192
+                }
+
+            }
         ],
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin()
-    ]
+        new webpack.HotModuleReplacementPlugin(),
+        new ExtractTextPlugin('bundle.css')
+    ],
+
 };

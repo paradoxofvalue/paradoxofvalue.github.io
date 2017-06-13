@@ -3,12 +3,16 @@
  */
 import React, { Component } from 'react';
 
+import './assets/style.css';
+import img from './assets/images/test.png'
+
 export default class Footer extends Component {
     render() {
         return (
-            <div>
-                <p>Footer</p>
-            </div>
+            <footer>
+                <img src={img} alt=""/>
+                info
+            </footer>
         )
     }
 }

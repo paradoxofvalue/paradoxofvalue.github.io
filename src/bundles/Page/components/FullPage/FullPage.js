@@ -3,7 +3,9 @@
  */
 
 import React, { Component } from 'react';
-import { UsersList } from '../../../Users/components/UsersList';
+
+// import { UsersList } from '../../../Users/components/UsersList';
+
 import Header from '../Header/Header';
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
@@ -12,7 +14,7 @@ import Footer from "../Footer/Footer";
 export default class FullPage extends Component {
     render() {
         return (
-            <div>
+            <div className="wrapper">
                 <Header/>
                 <Main/>
                 <Footer/>
