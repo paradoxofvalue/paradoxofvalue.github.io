@@ -3,6 +3,7 @@
  */
 const path = require('path');
 var webpack = require('webpack');
+var ghpages = require('gh-pages');
 
 var ExtractTextPlugin = require ('extract-text-webpack-plugin');
 
@@ -39,3 +40,8 @@ module.exports = {
     ],
 
 };
+
+ghpages.publish('dist',{
+    branch: 'gh-pages',
+    repo: 'https://github.com/paradoxofvalue/paradoxofvalue.github.io'
+}, function(err) {});
