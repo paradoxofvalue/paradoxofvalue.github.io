@@ -3,8 +3,6 @@
  */
 import React from 'react';
 import { render } from 'react-dom';
-import { UsersListContainer } from './bundles/Users/components/UsersList';
+import FullPage from "./bundles/Page/components/FullPage/FullPage";
 
-render(<UsersListContainer />,
-    document.getElementById('root')
-);
+render(<FullPage />, document.getElementById('root'));
