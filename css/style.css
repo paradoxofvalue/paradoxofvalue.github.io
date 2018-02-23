@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #17B794;
+  color: #ae0d0e;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #17B794;
+  color: red;
   outline: none;
   text-decoration: none;
 }
@@ -112,6 +112,9 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   text-transform: uppercase;
   font-weight: bold;
+}
+.gtco-nav #gtco-logo img {
+  width: 75px;
 }
 .gtco-nav #gtco-logo em {
   color: #17B794;
@@ -232,7 +235,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .gtco-nav ul li.active > a {
-  color: #fff !important;
+  color: white !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -346,7 +349,10 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(29, 43, 83, 0.89);
+  background: rgba(153, 51, 0, 0.31);
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: 80% 50%;
 }
 .gtco-cover > .gtco-container {
   position: relative;
@@ -569,14 +575,14 @@ form label {
 #gtco-counter .counter {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #17B794;
+  color: #ff0000;
   font-weight: 100;
   display: block;
 }
 #gtco-counter .counter-label {
   margin-bottom: 0;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
   letter-spacing: .1em;
 }
 @media screen and (max-width: 768px) {
@@ -596,7 +602,7 @@ form label {
   height: 70px;
 }
 #gtco-counter .icon i:before {
-  color: #cccccc;
+  color: white;
   display: block;
   text-align: center;
   margin-left: 3px;
@@ -657,7 +663,7 @@ form label {
 .feature-center .icon {
   width: 90px;
   height: 90px;
-  border: 1px solid #d6d6d6;
+  border: 1px solid #af0d0e;
   display: table;
   text-align: center;
   margin: 0 auto 30px auto;
@@ -672,7 +678,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #17B794;
+  color: #af0d0e;
 }
 .feature-center p, .feature-center h3 {
   margin-bottom: 30px;
@@ -721,7 +727,7 @@ form label {
   margin-bottom: 20px;
   line-height: 1.5;
   font-weight: bold;
-  color: #000;
+  color: #af0d0e;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -734,7 +740,7 @@ form label {
   margin-left: -25px;
   height: 2px;
   left: 50%;
-  background: #17B794;
+  background: #af0d0e;
 }
 .gtco-heading p {
   font-size: 20px;
@@ -1457,7 +1463,7 @@ form label {
   margin-left: 0px;
 }
 .gtco-nav .gtco-contact ul li a i {
-  color: #17B794;
+  color: rgba(255, 255, 255, 0.51);
 }
 .gtco-nav .gtco-contact ul li a:hover i {
   color: #fff;
@@ -1476,7 +1482,7 @@ form label {
   width: 33.33%;
   float: left;
   padding: 30px;
-  background: #17B794;
+  background: #b00d0e;
   position: relative;
   text-align: center;
 }
@@ -1503,7 +1509,7 @@ form label {
   height: 90px;
   margin: 0 auto 10px auto;
   position: relative;
-  background: #15a989;
+  background: white;
   top: -3em;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1514,7 +1520,7 @@ form label {
   line-height: 90px;
   height: 90px;
   font-size: 40px;
-  color: #fff;
+  color: #f00;
 }
 #gtco-features-3 .feature .icon i:before {
   display: block;
@@ -1530,7 +1536,7 @@ form label {
   -webkit-box-shadow: 0px 0 30px 10px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 0 30px 10px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 0 30px 10px rgba(0, 0, 0, 0.25);
-  background: #15a585;
+  background: #b00d0e;
 }
 @media screen and (max-width: 768px) {
   #gtco-features-3 .feature.feature-2 {
@@ -1540,7 +1546,7 @@ form label {
   }
 }
 #gtco-features-3 .feature.feature-2 .icon {
-  background: #13977a;
+  background: white;
 }
 #gtco-features-3 .feature.feature-2 .feature-inner {
   top: -3em;
@@ -1555,7 +1561,7 @@ form label {
   position: absolute;
   top: -50px;
   content: "";
-  background: #15a585;
+  background: #b00d0e;
   height: 50px;
   width: 100%;
   left: 0;
@@ -1569,7 +1575,7 @@ form label {
   position: absolute;
   bottom: -30px;
   content: "";
-  background: #15a585;
+  background: #b00d0e;
   height: 30px;
   width: 100%;
   left: 0;
@@ -1584,10 +1590,10 @@ form label {
 }
 #gtco-features-3 .feature.feature-3 {
   z-index: 7;
-  background: #129377;
+  background: #b00d0e;
 }
 #gtco-features-3 .feature.feature-3 .icon {
-  background: #118a6f;
+  background: white;
 }
 
 .gtco-flex {
@@ -1603,18 +1609,21 @@ form label {
   float: left;
 }
 
-#gtco-portfolio, #gtco-download {
+#gtco-portfolio, #gtco-counter {
   padding: 7em 0;
-  background: #303841;
+  background-image:url(../images/background.png);
+  background-color: rgba(153, 51, 0, 0.31);
+  background-size: cover;
   min-height: 500px;
 }
+
 @media screen and (max-width: 768px) {
   #gtco-portfolio {
     padding: 3em 0;
   }
 }
 #gtco-portfolio .gtco-heading h2 {
-  color: #fff;
+  color: #af0d0e;
 }
 #gtco-portfolio .gtco-heading p {
   color: rgba(255, 255, 255, 0.7);
@@ -1887,6 +1896,41 @@ form label {
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: none;
   border: 2px solid #17B794;
+}
+
+#gtco-portfolio .gtco-heading h2 {
+  color: white
+}
+#gtco-portfolio .feature-center .icon {
+  background: white;
+}
+#gtco-portfolio .feature-center .icon i {
+  color: #f00;
+}
+#gtco-portfolio .feature-center p {
+  color: rgba(255, 255, 255, 0.6);
+}
+#gtco-portfolio .feature-center h3 {
+  color: white;
+}
+#gtco-portfolio ul {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 150px;
+  flex-wrap: wrap;
+}
+#gtco-portfolio li {
+  list-style: none;
+  color: white;
+  padding: 5px;
+  border: 1px solid white;
+}
+#gtco-counter h2 {
+  color: white;
+}
+#gtco-counter .gtco-heading p {
+  color: rgba(255, 255, 255, 0.51);
 }
 
 /*# sourceMappingURL=style.css.map */
