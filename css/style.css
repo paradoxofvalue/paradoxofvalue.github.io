@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-cover {
-  height: 900px;
+  height: 100vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -619,6 +619,8 @@ form label {
   clear: both;
   position: relative;
 }
+
+
 @media screen and (max-width: 768px) {
   #gtco-features,
   #gtco-features-2,
@@ -1356,18 +1358,21 @@ form label {
   border: 2px solid #fff;
 }
 .btn-white:hover, .btn-white:focus, .btn-white:active {
-  color: #000;
-  background: #f2f2f2 !important;
-  border-color: #f2f2f2 !important;
+  color: #ffffff;
+  background: #af0d0e ;
+  border-color: #af0d0e ;
 }
 .btn-white.btn-outline {
-  color: #fff;
-  border: 2px solid #fff;
+  color: #af0d0e;
+  border: 2px solid #af0d0e;
 }
 .btn-white.btn-outline:hover, .btn-white.btn-outline:focus, .btn-white.btn-outline:active {
-  background: #fff;
-  color: #000;
-  border: 2px solid #fff;
+  background: #af0d0e;
+  color: white;
+  border: 2px solid #af0d0e;
+}
+.padding-top-5 {
+  padding-top: 5em;
 }
 
 .btn-outline {
@@ -1610,7 +1615,7 @@ form label {
   float: left;
 }
 
-#gtco-portfolio, #gtco-counter {
+#gtco-portfolio, #gtco-counter, .background {
   padding: 7em 0;
   background-image:url(../images/background.png);
   background-color: rgba(153, 51, 0, 0.31);
@@ -1942,5 +1947,121 @@ form label {
   color: #AE0D0E;
   background: white;
 }
+.about-block {
+  display: flex;
+  justify-content: space-around;
+}
+.about-block.feature-center p,
+.about-block.feature-center h3 {
+  margin-bottom: 0;
+  font-size: 25px;
+  margin-bottom: 0;
+  color: #af0d0e;
+}
+.about-block.feature-center:nth-child(2n) {
+  justify-content: flex-end;
+}
+.about-block.feature-center h3 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.about-block.feature-center p {
+  color: #ccc
+}
+.about-block.feature-center .icon {
+  margin: 0 10px 0 0;
+}
+.about-block div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+}
+.background .btn-white.btn-outline {
+  color: white;
+  border: 2px solid white;
+}
+.background .btn-white.btn-outline:hover,
+.background .btn-white.btn-outline:focus,
+.background .btn-white.btn-outline:active {
+  color: #af0d0e;
+  background: white;
+  border: 2px solid #af0d0e;
+}
+#gtco-why {
+  height: 100vh;
+}
+#gtco-why h2 {
+  color: white;
+}
+#gtco-why .features {
+  display: flex;
+  margin: 50px 0;
+}
+#gtco-why .feature-center {
+  position: relative;
+}
+#gtco-why .feature-center h3 {
+  color: white
+}
+#gtco-why .feature-center span {
+  font-size: 12em;
+  color: #af0d0e;
+  position: absolute;
+  top: -150px;
+  left: 0;
+}
+.gtco-section.large-text {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../images/brain-nodes.png);
+  background-size: 20%;
+  background-position: 90% 90%;
+  background-repeat: no-repeat;
+}
+#gtco-text .logo-large {
+  background-size: contain;
+  background-image: url("../images/logo-large-colored.png");
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+#gtco-text {
+  color: white;
+}
+#gtco-text h3 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+#gtco-text .col-md-9 {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+}
+.large-text.large-text_ferm {
+    background-image: url(../images/ferma.png);
+}
+.table {
+    color: white;
+}
+.table tbody {
+    width: 100%;
+}
 
+.table tr:nth-child(even) {
+    background: rgba(175, 13, 14, 0.52);
+}
+.table td:nth-child(odd) {
+    text-align: right;
+}
+.table > thead > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > th,
+.table > tfoot > tr > td {
+    border: none;
+}
 /*# sourceMappingURL=style.css.map */
