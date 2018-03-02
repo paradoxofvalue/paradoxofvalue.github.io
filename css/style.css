@@ -335,6 +335,8 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   float: left;
   width: 100%;
+  background-image: url("../images/Background.png");
+  background-color: rgba(153, 51, 0, 0.51);
 }
 .gtco-cover a {
   color: #17B794;
@@ -350,9 +352,9 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   background: rgba(153, 51, 0, 0.31);
-  background-image: url("../images/logo.png");
+  background-image: url("../images/Pyro.png");
   background-repeat: no-repeat;
-  background-position: 87% 38%;
+  background-position: 95% 60%;
 }
 .gtco-cover > .gtco-container {
   position: relative;
