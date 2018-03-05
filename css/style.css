@@ -114,7 +114,15 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: bold;
 }
 .gtco-nav #gtco-logo img {
-  width: 75px;
+    width: 150px;
+    position: relative;
+    top: -10px;
+}
+.menu-1 {
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .gtco-nav #gtco-logo em {
   color: #17B794;
@@ -356,7 +364,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   background: rgba(133, 36, 156, 0.51);
-  background-image: url("../images/Pyro.png");
+  /*background-image: url("../images/Pyro.png");*/
   background-repeat: no-repeat;
   background-position: 95% 60%;
   /*background-attachment: fixed;*/
@@ -372,7 +380,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-cover .display-t,
 .gtco-cover .display-tc {
-  height: 900px;
+  height: 100vh;
+    text-align: center;
   display: table;
   width: 100%;
 }
@@ -1972,6 +1981,7 @@ form label {
 .about-block.feature-center h3 {
   font-weight: 900;
   text-transform: uppercase;
+    width: 100%;
 }
 .about-block.feature-center p {
   color: #ccc
@@ -1984,6 +1994,8 @@ form label {
   flex-direction: column;
   align-items: flex-start;
   align-self: center;
+    width: 100%;
+    text-align: center;
 }
 .background .btn-white.btn-outline {
   color: white;
@@ -2104,14 +2116,16 @@ form label {
   font-size: 1.2em;
   left: 23px;
 }
-.custom-icon {
+.gtco-social-icons .custom-icon,
+.gtco-nav .custom-icon {
   background-color: #85249C;
   border-radius: 50%;
   width: 20px;
   height: 20px;
   display: inline-block;
 }
-.custom-icon img{
+.gtco-nav .custom-icon img,
+.gtco-social-icons .custom-icon img{
   position: relative;
   top: -2px;
   left: -2px;
@@ -2120,4 +2134,14 @@ form label {
 #downloads {
   height: 100vh;
 }
+#gtco-footer .gtco-heading {
+    margin-bottom: 1em;
+}
+#gtco-footer .gtco-heading h2:before {
+    height: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
+#gtco-footer .copyright {
+    position: absolute;
+}
