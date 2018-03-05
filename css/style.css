@@ -383,7 +383,7 @@ h1, h2, h3, h4, h5, h6, figure {
     position: relative;
     float: left;
     width: 100%;
-    background-image: url("../images/Background.png");
+    background-image: url("../images/Background.jpg");
     background-color: rgba(133, 36, 156, 0.51);
     background-attachment: fixed;
 }
@@ -1839,7 +1839,7 @@ form label {
 
 #gtco-portfolio, #gtco-counter, .background {
     padding: 7em 0;
-    background-image: url(../images/Background.png);
+    background-image: url(../images/Background.jpg);
     background-color: rgba(133, 36, 156, 0.51);
     background-size: cover;
     min-height: 500px;
@@ -2436,4 +2436,7 @@ form label {
     /*text-transform: uppercase;*/
     font-weight: bold;
     letter-spacing: 15px;
+}
+.custom-icon img {
+    width: 100%;
 }
