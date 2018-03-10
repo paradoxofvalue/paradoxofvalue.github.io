@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #gtco-header,
-#gtco-counter,
+#statistic,
 .gtco-bg {
     background-size: cover;
     background-position: top center;
@@ -614,15 +614,15 @@ form label {
 }
 
 #gtco-header .display-tc,
-#gtco-counter .display-tc,
+#statistic .display-tc,
 .gtco-cover .display-tc {
     display: table-cell !important;
     vertical-align: middle;
 }
 
 #gtco-header .display-tc h1, #gtco-header .display-tc h2,
-#gtco-counter .display-tc h1,
-#gtco-counter .display-tc h2,
+#statistic .display-tc h1,
+#statistic .display-tc h2,
 .gtco-cover .display-tc h1,
 .gtco-cover .display-tc h2 {
     margin: 0;
@@ -631,7 +631,7 @@ form label {
 }
 
 #gtco-header .display-tc h1,
-#gtco-counter .display-tc h1,
+#statistic .display-tc h1,
 .gtco-cover .display-tc h1 {
     margin-bottom: 0px;
     font-size: 59px;
@@ -640,7 +640,7 @@ form label {
 
 @media screen and (max-width: 768px) {
     #gtco-header .display-tc h1,
-    #gtco-counter .display-tc h1,
+    #statistic .display-tc h1,
     .gtco-cover .display-tc h1 {
         font-size: 34px;
         line-height: 1.2;
@@ -649,18 +649,18 @@ form label {
 }
 
 #gtco-header .display-tc h2,
-#gtco-counter .display-tc h2,
+#statistic .display-tc h2,
 .gtco-cover .display-tc h2 {
     font-size: 22px;
     line-height: 1.5;
     margin-bottom: 30px;
 }
 
-#gtco-counter {
+#statistic {
     text-align: center;
 }
 
-#gtco-counter .counter {
+#statistic .counter {
     font-size: 50px;
     margin-bottom: 10px;
     color: white;
@@ -668,7 +668,7 @@ form label {
     display: block;
 }
 
-#gtco-counter .counter-label {
+#statistic .counter-label {
     margin-bottom: 0;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.5);
@@ -676,12 +676,12 @@ form label {
 }
 
 @media screen and (max-width: 768px) {
-    #gtco-counter .feature-center {
+    #statistic .feature-center {
         margin-bottom: 50px;
     }
 }
 
-#gtco-counter .icon {
+#statistic .icon {
     width: 70px;
     height: 70px;
     text-align: center;
@@ -690,11 +690,11 @@ form label {
     border: none !important;
 }
 
-#gtco-counter .icon i {
+#statistic .icon i {
     height: 70px;
 }
 
-#gtco-counter .icon i:before {
+#statistic .icon i:before {
     color: white;
     display: block;
     text-align: center;
@@ -758,7 +758,7 @@ form label {
 }
 
 .feature-center .icon {
-    width: 90px;
+    width: 132px;
     height: 90px;
     border: 1px solid #85249C;
     display: table;
@@ -1837,7 +1837,7 @@ form label {
     float: left;
 }
 
-#gtco-portfolio, #gtco-counter, .background {
+#gtco-portfolio, #statistic, .background {
     padding: 7em 0;
     background-image: url(../images/Background.jpg);
     background-color: rgba(133, 36, 156, 0.51);
@@ -2201,15 +2201,15 @@ form label {
     transition: 0.2s ease 0.0s;
 }
 
-#gtco-counter {
+#statistic {
     background-color: rgba(133, 36, 156, 0.51);
 }
 
-#gtco-counter h2 {
+#statistic h2 {
     color: white;
 }
 
-#gtco-counter .gtco-heading p {
+#statistic .gtco-heading p {
     color: rgba(255, 255, 255, 0.51);
 }
 
