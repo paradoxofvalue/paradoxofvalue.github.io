@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="743d382b-aa30-4f5c-86f1-db9e623fc673" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/paradoxofvalue.github.io.zip" afterPath="$PROJECT_DIR$/paradoxofvalue.github.io.zip" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +18,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+                <state relative-caret-position="161">
+                  <caret line="229" column="36" lean-forward="true" selection-start-line="229" selection-start-column="36" selection-end-line="229" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -229,7 +228,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60688000" />
+    <option name="totallyTimeSpent" value="60848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1058" extended-state="6" />
@@ -611,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+        <state relative-caret-position="161">
+          <caret line="229" column="36" lean-forward="true" selection-start-line="229" selection-start-column="36" selection-end-line="229" selection-end-column="36" />
           <folding />
         </state>
       </provider>
