@@ -620,6 +620,7 @@ form label {
 .gtco-cover .display-tc {
     display: table-cell !important;
     vertical-align: middle;
+    /*vertical-align: bottom;*/
 }
 
 #gtco-header .display-tc h1, #gtco-header .display-tc h2,
@@ -630,6 +631,10 @@ form label {
     margin: 0;
     padding: 0;
     color: white;
+}
+#gtco-header h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2em;
 }
 
 #gtco-header .display-tc h1,
@@ -2457,17 +2462,22 @@ form label {
     margin-top: 2em;
 }
 .top p {
-    display: flex;
-    justify-content: space-around;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
     font-size: 2em;
     color: white;
-    flex-wrap: wrap;
-    height: 7em;
+    /*flex-wrap: wrap;*/
+    /*height: 7em;*/
     font-weight: bold;
 }
+.top p span:nth-child(1) {
+    line-height: 1;
+    padding-top: 0.6em;
+}
 .top p span {
-    justify-self: center;
-    align-self: center;
+    height: 100px;
+    border: 1px solid rgba(133, 36, 156, 0.51);
+    line-height: 100px;
 }
 /*.gtco-heading h2:before {*/
     /*height: 0;*/
@@ -2481,4 +2491,67 @@ form label {
     position: absolute;
     top: 0;
     left: 0;
+}
+.header {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.header h1 {
+    font-size: 8rem;
+    color: #222222;
+    text-align: center;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.glitch-window {
+    position: absolute;
+    top: 0;
+    left: -2px;
+    width: 100%;
+    color: #222222;
+    text-shadow: 2px 0 #F9F8F8, -1px 0 #85249C, -2px 0 green;
+    overflow: hidden;
+    animation: crt-me 2500ms infinite linear alternate-reverse;
+}
+
+@keyframes crt-me {
+    0% {
+        clip: rect(131px, 9999px, 294px, 0);
+    }
+    10% {
+        clip: rect(212px, 9999px, 276px, 0);
+    }
+    20% {
+        clip: rect(285px, 9999px, 277px, 0);
+    }
+    30% {
+        clip: rect(27px, 9999px, 97px, 0);
+    }
+    40% {
+        clip: rect(64px, 9999px, 98px, 0);
+    }
+    50% {
+        clip: rect(61px, 9999px, 85px, 0);
+    }
+    60% {
+        clip: rect(99px, 9999px, 114px, 0);
+    }
+    70% {
+        clip: rect(34px, 9999px, 115px, 0);
+    }
+    80% {
+        clip: rect(98px, 9999px, 129px, 0);
+    }
+    90% {
+        clip: rect(43px, 9999px, 96px, 0);
+    }
+    100% {
+        clip: rect(82px, 9999px, 64px, 0);
+    }
 }
