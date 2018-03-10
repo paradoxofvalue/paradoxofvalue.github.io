@@ -2517,7 +2517,7 @@ form label {
     color: #222222;
     text-shadow: 2px 0 #F9F8F8, -1px 0 #85249C, -2px 0 green;
     overflow: hidden;
-    animation: crt-me 2500ms infinite linear alternate-reverse;
+    animation: crt-me 8000ms infinite linear alternate-reverse;
 }
 
 @keyframes crt-me {
