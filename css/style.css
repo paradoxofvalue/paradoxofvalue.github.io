@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-    font-family: "Droid Sans", Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
@@ -68,7 +68,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
     color: #000;
-    font-family: "Droid Sans", Arial, sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
 }
@@ -87,7 +87,9 @@ h1, h2, h3, h4, h5, h6, figure {
     color: #fff;
     background: #85249C;
 }
-
+.gtco-nav .gtco-container {
+    max-width: 100%;
+}
 .gtco-container {
     max-width: 1140px;
     position: relative;
@@ -161,7 +163,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-nav ul li a {
-    font-size: 24px;
+    font-size: 18px;
     padding: 30px 10px;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
@@ -1404,7 +1406,7 @@ form label {
 .btn {
     margin-right: 4px;
     margin-bottom: 4px;
-    font-family: "Droid Sans", Arial, sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
     -webkit-border-radius: 4px;
@@ -2430,12 +2432,14 @@ form label {
 /*# sourceMappingURL=style.css.map */
 #gtco-footer .copyright {
     position: absolute;
+    bottom: -7em;
+    left: 0;
 }
 
 #gtco-header h1 {
     /*text-transform: uppercase;*/
     font-weight: bold;
-    letter-spacing: 15px;
+    letter-spacing: 1px;
 }
 .custom-icon img {
     width: 100%;
