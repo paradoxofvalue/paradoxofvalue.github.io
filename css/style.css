@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6, figure {
     background: #85249C;
 }
 .gtco-nav .gtco-container {
-    max-width: 100%;
+    max-width: 85%;
 }
 .gtco-container {
     max-width: 1140px;
@@ -2442,5 +2442,43 @@ form label {
     letter-spacing: 1px;
 }
 .custom-icon img {
+    /*width: 100%;*/
+}
+#gtco-footer {
+    text-align: center;
+}
+#spec .gtco-heading {
+    margin-bottom: 2em;
+}
+#spec {
+    padding: 3em 0;
+}
+.top {
+    margin-top: 2em;
+}
+.top p {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    color: white;
+    flex-wrap: wrap;
+    height: 7em;
+    font-weight: bold;
+}
+.top p span {
+    justify-self: center;
+    align-self: center;
+}
+/*.gtco-heading h2:before {*/
+    /*height: 0;*/
+/*}*/
+#spec, #statistic {
+    position: relative;
+}
+#statistic canvas, #spec canvas {
     width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
