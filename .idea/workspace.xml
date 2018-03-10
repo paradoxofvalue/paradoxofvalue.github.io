@@ -18,8 +18,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="229" column="36" lean-forward="true" selection-start-line="229" selection-start-column="36" selection-end-line="229" selection-end-column="36" />
+                <state relative-caret-position="375">
+                  <caret line="132" column="64" lean-forward="true" selection-start-line="132" selection-start-column="64" selection-end-line="132" selection-end-column="64" />
                   <folding />
                 </state>
               </provider>
@@ -57,7 +57,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>whats</find>
       <find>noindex</find>
       <find>red</find>
       <find>.about-block div</find>
@@ -87,6 +86,7 @@
       <find>Dignissimos asperiores vit</find>
       <find>fas</find>
       <find>.top</find>
+      <find>comu</find>
     </findStrings>
     <replaceStrings>
       <replace>rgba(133, 36, 156, 0.51)</replace>
@@ -94,8 +94,8 @@
       <replace>85249C</replace>
       <replace>ti-control-stop</replace>
       <replace>Background.jpg</replace>
-      <replace>statistic</replace>
       <replace>Montserrat</replace>
+      <replace>statistic</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -228,7 +228,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60848000" />
+    <option name="totallyTimeSpent" value="61032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1058" extended-state="6" />
@@ -610,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="229" column="36" lean-forward="true" selection-start-line="229" selection-start-column="36" selection-end-line="229" selection-end-column="36" />
+        <state relative-caret-position="375">
+          <caret line="132" column="64" lean-forward="true" selection-start-line="132" selection-start-column="64" selection-end-line="132" selection-end-column="64" />
           <folding />
         </state>
       </provider>
