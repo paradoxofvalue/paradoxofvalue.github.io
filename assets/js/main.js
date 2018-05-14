@@ -49,20 +49,20 @@ jQuery(document).ready(function ($) {
      Carousel
      ---------------------------------------------------------------------= */
 
-    $('.main_home_slider').owlCarousel({
-        responsiveClass: true,
-        autoplay: false,
-        items: 1,
-        loop: true,
-        dots: true,
-        nav: false,
-        navText: [
-            "<i class='lnr lnr-chevron-left'></i>",
-            "<i class='lnr lnr-chevron-right'></i>"
-        ],
-        autoplayHoverPause: true
+    // $('.main_home_slider').owlCarousel({
+    //     responsiveClass: true,
+    //     autoplay: false,
+    //     items: 1,
+    //     loop: true,
+    //     dots: true,
+    //     nav: false,
+    //     navText: [
+    //         "<i class='lnr lnr-chevron-left'></i>",
+    //         "<i class='lnr lnr-chevron-right'></i>"
+    //     ],
+    //     autoplayHoverPause: true
 
-    });
+    // });
 
 
 
@@ -107,6 +107,12 @@ jQuery(document).ready(function ($) {
         }
     });
 
+    $('#mixcontent1').mixItUp({
+        animation: {
+            animateResizeContainer: false,
+            effects: 'fade rotateX(-45deg) translateY(-10%)'
+        }
+    });
 
 
 
